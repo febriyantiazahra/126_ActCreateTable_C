@@ -26,7 +26,7 @@ namespace Create_Table_126
                     "Nama varchar(50), Alamat varchar(255), Jenis_Kelamin char(1))", con);
                 cm.ExecuteNonQuery();
 
-                Console.WriteLine("Tabel sukses dibuat");
+                Console.WriteLine("Tabel Berhasil Dibuat");
                 Console.ReadKey();
             }
             catch (Exception e)
